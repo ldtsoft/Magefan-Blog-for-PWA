@@ -1,0 +1,66 @@
+.root {
+	margin-top: 2rem;
+}
+
+.count {
+	padding-bottom: 1rem;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.count h3 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.commentList {
+	margin-top: 1rem;
+}
+
+.comment {
+	margin-bottom: 1.5rem;
+}
+
+.commentTitle {
+	display: inline-grid;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 1.5em;
+    padding-bottom: 0.5rem;
+}
+
+.commentAuthor {
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.commentTime {
+	display: inline-grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 0.5rem;
+    align-items: center;
+    color: #a2a2a2;
+}
+
+.commentContent {
+	
+}
+
+.commentActions {
+	margin: 0.5rem auto;
+	display: inline-grid;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 1.5em;
+}
+
+.replyAction {
+	color: rgb(var(--cdc-global-color-primary));
+}
+
+.replies {
+	padding-left: 1.5rem;
+}
+
+.replies .comment {
+	margin-bottom: 0.75rem;
+}

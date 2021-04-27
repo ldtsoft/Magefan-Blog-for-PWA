@@ -1,0 +1,9 @@
+.root {
+	margin: 5rem auto;
+}
+
+.message {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}

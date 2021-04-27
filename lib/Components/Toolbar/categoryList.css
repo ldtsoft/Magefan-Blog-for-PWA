@@ -1,0 +1,19 @@
+.root {
+	padding-top: 1rem;
+    border-top: 1px solid #c3c3c3;
+}
+
+.root h3 {
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.list {
+	padding-left: 1rem;
+}
+
+.category {
+	color: #489bb9;
+	padding-top: 0.5rem;
+	color: rgb(var(--cdc-global-color-primary));
+}

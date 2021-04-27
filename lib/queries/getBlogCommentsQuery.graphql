@@ -1,0 +1,26 @@
+query getBlogComments(
+	$currentPage: Int 
+    $pageSize: Int
+    $filter: BlogCommentsFilterInput
+) {
+    blogComments(
+    	currentPage: $currentPage,
+    	pageSize: $pageSize,
+    	filter: $filter
+    ) {
+        total_count
+        total_pages
+        items {
+        	comment_id
+            author_nickname
+            text
+            creation_time
+            replies {
+            	comment_id
+	            author_nickname
+	            text
+	            creation_time
+            }
+        }
+    }
+}

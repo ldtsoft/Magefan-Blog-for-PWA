@@ -1,0 +1,38 @@
+{
+  "name": "@ldtsoft/magefan-blog",
+  "version": "0.0.1",
+  "description": "Implements Magefan Blog functionality on Magento 2 PWA Studio",
+  "author": "Dreyar <trongithust@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldtsoft/Magefan-Blog-for-PWA.git"
+  },
+  "homepage": "https://github.com/ldtsoft/Magefan-Blog-for-PWA",
+  "license": "MIT",
+  "main": "intercept.js",
+  "peerDependencies": {
+    "@magento/peregrine": "*",
+    "@magento/pwa-buildpack": "*",
+    "@magento/venia-ui": "*",
+    "react": "*",
+    "react-intl": "*",
+    "react-router-dom": "*"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "intercept.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/ldtsoft/Magefan-Blog-for-PWA/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "magefan-blog"
+  ]
+}

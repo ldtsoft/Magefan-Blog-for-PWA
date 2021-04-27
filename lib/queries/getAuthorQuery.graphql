@@ -1,0 +1,11 @@
+query getAuthor($id: String!) {
+    blogAuthor(id: $id) {
+        author_id
+        identifier
+        title
+        meta_title
+        meta_description
+        is_active
+        content
+    }
+}

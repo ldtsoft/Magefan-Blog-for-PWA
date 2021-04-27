@@ -1,0 +1,43 @@
+query getPosts (
+    $currentPage: Int 
+    $pageSize: Int
+    $filter: BlogPostsFilterInput
+    $sort: [String]
+    $sortFiled: String
+) {
+    blogPosts (
+        currentPage: $currentPage 
+        pageSize: $pageSize 
+        filter: $filter
+        sort: $sort
+        sortFiled: $sortFiled
+    ) {
+        total_count
+        total_pages
+        items {
+            post_id
+            title
+            short_filtered_content
+            post_url
+            identifier
+            first_image
+            is_active
+            creation_time
+            author {
+                author_id
+                name
+                author_url
+            }
+            tags {
+                tag_id
+                title
+                tag_url
+            }
+            categories {
+                category_id
+                title
+                category_url
+            }
+        }
+    }
+}

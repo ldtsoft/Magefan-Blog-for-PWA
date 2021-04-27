@@ -1,0 +1,33 @@
+.root {
+	background-color: #eaeaea;
+}
+
+.text textarea{
+	border-radius: unset;
+	resize: vertical;
+}
+
+.footer {
+	display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.information {
+	display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+	.information {
+		grid-template-columns: unset;
+		grid-gap: 0.25rem;
+	}
+
+	.footer {
+	    grid-template-columns: unset;
+	}
+}

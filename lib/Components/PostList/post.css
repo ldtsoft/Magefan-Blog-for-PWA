@@ -1,0 +1,68 @@
+.root {
+	padding-bottom: 0.5rem;
+	padding-top: 1rem;
+	border-bottom: 1px solid #c3c3c3; 
+}
+
+.root:first-child {
+	padding-top: unset;
+}
+
+.root:last-child {
+	border: unset;
+}
+
+.postTitle  {
+	
+}
+
+.postTitle h3 {
+	margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.postInfo {
+	display: inline-grid;
+    grid-gap: 2rem;
+    grid-template-columns: auto auto;
+}
+
+.createdDate {
+	display: flex;
+	align-items: center;
+}
+
+.createdDateText {
+	margin-left: 0.5rem;
+}
+
+.postAuthor {
+	display: flex;
+	align-items: center;
+}
+
+.postAuthorText {
+	margin-left: 0.5rem;
+}
+
+.postContent {
+	margin-top: 1.5rem;
+}
+
+.imageRoot {
+	position: unset;
+}
+
+.imageLoaded {
+	position: unset;
+	width: 100%;
+	height: auto;
+}
+
+.readMore {
+	text-align: center;
+	margin-top: 1rem;
+	color: #489bb9;
+	color: rgb(var(--cdc-global-color-primary));
+}

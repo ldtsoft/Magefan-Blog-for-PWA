@@ -1,0 +1,21 @@
+.root {
+	
+}
+
+.postList {
+	width: 100%;
+	padding: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.root {
+		display: grid;
+		grid-template-columns: auto 30%;
+		grid-gap: 1rem;
+	}
+
+	.postList {
+		border: 1px solid #c3c3c3;
+		border-radius: 0 1rem 1rem 0;
+	}
+}

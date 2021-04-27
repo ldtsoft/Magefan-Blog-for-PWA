@@ -1,0 +1,30 @@
+query getProducts($filters: ProductAttributeFilterInput!) {
+    products(filter: $filters) {
+        items {
+            __typename
+            id
+            media_gallery_entries {
+                id
+                label
+                position
+                disabled
+                file
+            }
+            name
+            price {
+                regularPrice {
+                    amount {
+                        currency
+                        value
+                    }
+                }
+            }
+            sku
+            small_image {
+                url
+            }
+            url_key
+            url_suffix
+        }
+    }
+}

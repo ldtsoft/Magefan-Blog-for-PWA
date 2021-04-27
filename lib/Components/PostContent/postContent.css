@@ -1,0 +1,91 @@
+.root {
+	width: 100%;
+}
+
+.content {
+	width: 100%;
+	padding: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.root {
+		display: grid;
+		grid-template-columns: auto 30%;
+		grid-gap: 1rem;
+	}
+
+	.content {
+		padding: 2rem;
+		border: 1px solid #c3c3c3;
+		border-radius: 0 1rem 1rem 0;
+	}
+}
+
+.postTitle  {
+	
+}
+
+.postTitle h1 {
+	margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.postInfo {
+	display: inline-grid;
+    grid-gap: 2rem;
+    grid-template-columns: auto auto;
+}
+
+.createdDate {
+	display: flex;
+	align-items: center;
+}
+
+.createdDateText {
+	margin-left: 0.5rem;
+}
+
+.postAuthor {
+	display: flex;
+	align-items: center;
+}
+
+.postAuthorText {
+	margin-left: 0.5rem;
+}
+
+.postContent {
+	margin-top: 1.5rem;
+	min-height: 10rem;
+}
+
+.imageRoot {
+	position: unset;
+}
+
+.imageLoaded {
+	position: unset;
+	width: 100%;
+	height: auto;
+}
+
+.readMore {
+	text-align: center;
+	margin-top: 1rem;
+	color: #489bb9;
+	color: rgb(var(--cdc-global-color-primary));
+}
+
+.postComments {
+	
+}
+
+.relatedProducts {
+	margin-top: 5rem;
+}
+
+.relatedProducts h3 {
+	font-size: 20px;
+    font-weight: bold;
+}

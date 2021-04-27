@@ -1,0 +1,14 @@
+.root {
+
+}
+
+.text {
+	font-weight: bold;
+}
+
+.link {
+	color: #489bb9;
+	margin-right: 2rem;
+	font-weight: bold;
+	color: rgb(var(--cdc-global-color-primary));
+}

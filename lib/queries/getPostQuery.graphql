@@ -1,0 +1,30 @@
+query GetPost ($postId: String) {
+    blogPost (id: $postId) {
+        post_id
+        meta_title
+        meta_description
+        title
+        filtered_content
+        identifier
+        first_image
+        is_active
+        post_url
+        creation_time
+        related_products
+        author {
+            author_id
+            name
+            author_url
+        }
+        tags {
+            tag_id
+            title
+            tag_url
+        }
+        categories {
+            category_id
+            title
+            category_url
+        }
+    }
+}

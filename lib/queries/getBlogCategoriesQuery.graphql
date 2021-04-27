@@ -1,0 +1,14 @@
+query getBlogCategories  {
+    blogCategories {
+        total_count
+        items {
+            category_id
+            title
+            category_url
+            is_active
+            include_in_menu
+            category_level
+            posts_count
+        }
+    }
+}

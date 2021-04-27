@@ -1,0 +1,11 @@
+query getBlogTags  {
+    blogTags {
+        total_count
+        items {
+            tag_id
+            title
+            tag_url
+            is_active
+        }
+    }
+}
