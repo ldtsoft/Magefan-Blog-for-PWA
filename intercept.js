@@ -4,7 +4,8 @@ module.exports = targets => {
             esModules: true,
             cssModules: true,
             graphqlQueries: true,
-            rootComponents: true
+            rootComponents: true,
+            i18n: true
         };
     });
 };

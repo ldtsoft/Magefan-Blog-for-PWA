@@ -1,0 +1,20 @@
+{
+	"mfBlog.notFoundPostLabel": "Không có bài viết nào",
+	"commentForm.successMessage": "Cảm ơn phản hồi của bạn!",
+	"commentForm.addCommentLabel": "Thêm nhận xét ...",
+	"commentForm.nicknameLabel": "Họ tên",
+	"mfBlog.commentCountLabel": "{total_count} nhận xét",
+	"mfBlog.fetchingCommentsLabel": "Đang tải nhận xét",
+	"mfBlog.relatedProductLabel": "Sản phẩm liên quan",
+	"mfBlog.postedInLabel": "Đăng trong: ",
+	"mfBlog.readMoreLabel": "Xem thêm »",
+	"mfBlog.categoryListLabel": "Danh mục",
+	"mfBlog.toolbarMenuLabel": "Tùy chọn",
+	"mfBlog.searchLabel": "Tìm kiếm",
+	"mfBlog.searchPlaceholder": "Tìm kiếm ...",
+	"mfBlog.authorLabel": "Tác giả \"{authorName}\"",
+	"mfBlog.blogPageTitle": "{storeName} - Trang tìm kiếm",
+	"mfBlog.searchKeyLabel": "Tìm kiếm \"{searchText}\"",
+	"mfBlog.tagLabel": "Thẻ \"{tagName}\"",
+	"mfBlog.commentForm.submitLabel": "Gửi"
+}

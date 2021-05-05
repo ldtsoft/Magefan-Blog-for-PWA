@@ -30,3 +30,7 @@ or
 * Related products
 * SEO-friendly URLs
 * Responsive Design
+* Translation
+
+## Contact
+Email - ldtsoftwarevn@gmail.com

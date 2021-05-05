@@ -1,6 +1,6 @@
 {
   "name": "@ldtsoft/magefan-blog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Implements Magefan Blog functionality on Magento 2 PWA Studio",
   "author": "Dreyar <trongithust@gmail.com>",
   "repository": {
@@ -33,6 +33,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "magefan-blog"
+    "magefan-blog",
+    "magento2-blog",
+    "blog-for-pwa-studio"
   ]
 }
